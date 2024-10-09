@@ -1,0 +1,348 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto";
+    scroll-behavior: smooth;
+}
+
+#wrapper {
+    width: 100%;
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+
+.nav-main {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgb(255, 247, 216, 1);
+    width: 100%;
+    height: 3rem;
+    padding: 2rem;
+    position: fixed;
+    z-index: 100;
+    top: 0;
+    left: 0
+}
+
+.nav-items {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin-right: 40%;
+    gap: 40px;
+}
+
+.nav-items2 {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 40px;
+}
+
+.nav-items2 a {
+    text-decoration: none;
+    color: black;
+}
+
+.nav-items a {
+    text-decoration: none;
+    color: black;
+}
+
+.heading {
+    font-size: 33px;
+    font-weight: 600;
+}
+
+.order-btn {
+    border: none;
+    padding: 8px 25px;
+    font-size: 16px;
+    color: white;
+    background-color: black;
+    margin: 4px 2px;
+    transition: 0.3s;
+}
+
+.order-btn:hover {
+    cursor: pointer;
+    background-color: rgb(54, 184, 54);
+}
+
+.p-imagescroll {
+    position: relative;
+    background-image: url(main-section.jpg);
+    height: 700px;
+    width: 100%;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: -1;
+
+}
+
+.home {
+    position: relative;
+    height: 700px;
+    overflow: hidden;
+
+}
+
+.home-info {
+    position: absolute;
+    top: 5.75rem;
+    left: 16px;
+    color: white;
+    z-index: 1;
+    font-size: 100px;
+    margin-left: 2rem;
+    margin-inline: 30px;
+}
+
+.home-section-btn {
+    position: absolute;
+    top: 60%;
+    left: 69%;
+    z-index: 1;
+    border: none;
+    padding: 25px 50px;
+    font-size: 50px;
+    color: black;
+    background-color: rgb(255, 247, 216, 1);
+    transition: 0.8s;
+}
+
+.home-section-btn:hover {
+    cursor: pointer;
+    background-color: rgb(54, 184, 54);
+    border: 0.5px solid black;
+}
+
+.info-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10rem;
+    background-color: rgb(255, 255, 255);
+}
+
+.info {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 40px;
+    line-height: 70px;
+    margin: 22px;
+    font-weight: 600;
+    font-style: italic;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+
+.coffee-section {
+    background-color: rgb(255, 247, 216, 1);
+    padding: 3rem;
+    height: 750px;
+    position: relative;
+}
+
+.coffee-section-heading {
+    font-size: 43px;
+    font-weight: 400;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 2rem;
+}
+
+.coffee-items {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+}
+
+.coffee-items-image {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.image-headings {
+    margin: 1.5rem;
+    font-size: 27px;
+    font-weight: 400;
+    text-align: start;
+}
+
+.image-desc {
+    font-size: 16px;
+    font-weight: 400;
+    font-style: oblique;
+}
+
+.image-section3 {
+    background-image: url(bg-image-section3.jpg);
+    position: relative;
+    height: 700px;
+    width: 100%;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: -1;
+}
+
+.image-title {
+    position: absolute;
+    right: 500px;
+    top:2300px;
+    font-size: 80px;
+    color:white;
+    font-weight: 600;
+    font-style: oblique;
+}
+
+.shop-section{
+    background-color: rgb(255, 247, 216, 1);
+    padding: 7rem;
+    position: relative;
+    background-color:rgb(255, 255, 255);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.shop-section-heading{
+    text-align: center;
+    margin: 2rem;
+    font-size: 42px;
+    font-weight: 400;
+    font-style: oblique;
+
+}
+.shoping-items{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+.shoping-items-names{
+    margin: 1rem;
+    font-size: 18px;
+    font-weight: 300;
+    font-style: oblique;
+}
+
+.price{
+    margin: 1rem;
+    font-size: 18px;
+    font-weight: 300;
+    font-style: oblique;
+}
+
+.shop-btn{
+    border: none;
+    padding: 25px 100px;
+    color: black;
+    background-color: rgb(255, 247, 216, 1);
+    margin: 4px 2px;
+    transition: 0.3s;
+    font-size: 32px;
+    font-weight: 500;
+    margin-top: 2rem;
+}
+
+.shop-btn:hover{
+    border: 1px solid black;
+    cursor: pointer;
+    background-color: rgb(54, 184, 54);
+
+}
+.footer-main {
+    display: flex;
+    height: auto; 
+    justify-content: space-evenly;
+    align-items: flex-start; 
+    background-color: rgb(226, 255, 255);
+    padding: 40px 20px; 
+}
+
+.footer-content-1, .footer-content-2 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start; 
+    max-width: 300px; 
+}
+
+.footer-content-1 h2, .footer-content-2 h2 {
+    font-size: 24px;
+    font-weight: 500;
+    margin-bottom: 20px;
+    font-style: oblique;
+}
+ 
+.address{
+    padding: 2px;
+}
+.days-container {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+
+.days{
+    margin:3px;
+}
+.contact-us-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-bottom: 20px;
+}
+.contact-us a{
+    text-decoration: none;
+    margin: 5px 0;
+    color: black;
+}
+.newsletter-form {
+    display: flex;
+    flex-direction: row;
+    gap: 10px; 
+}
+
+.newsletter-form input {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.newsletter-form button {
+    padding: 10px 20px;
+    border: none;
+    background-color: black;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.newsletter-form button:hover {
+    background-color: rgb(54, 184, 54);
+}
+
+.social-media a {
+    margin: 5px 0;
+    text-decoration: none;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    color: black;
+}
